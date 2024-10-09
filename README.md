@@ -15,7 +15,7 @@ This repository is a fork of the original [Depth Pro: Sharp Monocular Metric Dep
 
 ### Google Colab Notebook w/ Test Code
 A Colab notebook that demonstrates how to run depth predictions and visualize the results.
-[![Google Colab Notebook](results/colab_01.png)](results/notebooks/link20241009_DEPTH_PRO.ipynb)
+[![Google Colab Notebook](results/colab_01.png)](results/20241009_DEPTH_PRO.ipynb)
 
 
 ---
