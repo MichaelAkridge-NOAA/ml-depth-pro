@@ -1,3 +1,26 @@
+## Depth Pro: Testing on Underwater Marine Imagery 
+This repository is a fork of the original [Depth Pro: Sharp Monocular Metric Depth](https://arxiv.org/abs/2410.02073) project. The focus of this fork is to test depth estimation models on Underwater Marine Imagery  data and compare their performance. The tests involve generating high-resolution depth maps and evaluating the boundary accuracy of the predictions.
+<div style="display: flex; flex-direction: row;">
+  <div style="margin-right: 10px;">
+    <h4>Before</h4>
+    <img src="results/before_20241009_ml_depth_pro_MOUSS_test.jpg" alt="Before" width="400"/>
+  </div>
+  <div>
+    <h4>After</h4>
+    <img src="results/after_20241009_ml_depth_pro_MOUSS_test.png" alt="After" width="400"/>
+  </div>
+</div>
+
+![](results/20241009_ml-depth-pro-MOUSS-test.gif)
+
+### Google Colab Notebook w/ Test Code
+A Colab notebook that demonstrates how to run depth predictions and visualize the results.
+[![Google Colab Notebook](results/colab_01.png)](results/notebooks/link20241009_DEPTH_PRO.ipynb)
+
+
+---
+## Orginal Code
+The original repository contains the implementation of the Depth Pro model, which synthesizes sharp and high-resolution depth maps. See the original README below for detailed information about the project.
 ## Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
 
 This software project accompanies the research paper:
@@ -37,7 +60,6 @@ depth-pro-run -i ./data/example.jpg
 ```
 
 ### Running from python
-
 ```python
 from PIL import Image
 import depth_pro
@@ -56,11 +78,8 @@ depth = prediction["depth"]  # Depth in [m].
 focallength_px = prediction["focallength_px"]  # Focal length in pixels.
 ```
 
-
 ### Evaluation (boundary metrics) 
-
 Our boundary metrics can be found under `eval/boundary_metrics.py` and used as follows:
-
 ```python
 # for a depth-based dataset
 boundary_f1 = SI_boundary_F1(predicted_depth, target_depth)
@@ -71,9 +90,7 @@ boundary_recall = SI_boundary_Recall(predicted_depth, target_mask)
 
 
 ## Citation
-
 If you find our work useful, please cite the following paper:
-
 ```bibtex
 @article{Bochkovskii2024:arxiv,
   author     = {Aleksei Bochkovskii and Ama\"{e}l Delaunoy and Hugo Germain and Marcel Santos and
@@ -87,11 +104,8 @@ If you find our work useful, please cite the following paper:
 
 ## License
 This sample code is released under the [LICENSE](LICENSE) terms.
-
 The model weights are released under the [LICENSE](LICENSE) terms.
 
 ## Acknowledgements
-
 Our codebase is built using multiple opensource contributions, please see [Acknowledgements](ACKNOWLEDGEMENTS.md) for more details.
-
 Please check the paper for a complete list of references and datasets used in this work.
