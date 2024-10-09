@@ -17,10 +17,17 @@ This repository is a fork of the original [Depth Pro: Sharp Monocular Metric Dep
 A Colab notebook that demonstrates how to run depth predictions and visualize the results.
 [![Google Colab Notebook](results/colab_01.png)](notebooks/20241009_DEPTH_PRO.ipynb)
 
+----------
+#### Disclaimer
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project content is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
 
+##### License 
+See the [LICENSE.md](./LICENSE.md) for details on this forks code.
+- see below and to the linked project for more licence details and Acknowledgements
 ---
-## Orginal Code
+## Orginal Code Details
 The original repository contains the implementation of the Depth Pro model, which synthesizes sharp and high-resolution depth maps. See the original README below for detailed information about the project.
+
 ## Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
 
 This software project accompanies the research paper:
