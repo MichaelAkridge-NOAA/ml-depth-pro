@@ -4,9 +4,10 @@ This repository is a test fork of the original [Depth Pro: Sharp Monocular Metri
 ### Input / Result
 <img src="results/before_20241009_ml_depth_pro_MOUSS_test.jpg" alt="Before" width="400"/><img src="results/after_20241009_ml_depth_pro_MOUSS_test.png" alt="After" width="400"/>
 
+### Video Test Results
 ![](results/20241009_ml-depth-pro-MOUSS-test.gif)
 
-### Google Colab Notebook w/ Test Code
+### Google Colab Notebook w/ Testing Code
 A Colab notebook that demonstrates how to run depth predictions and visualize the results.
 [![Google Colab Notebook](results/colab_01.png)](notebooks/20241009_DEPTH_PRO.ipynb)
 
