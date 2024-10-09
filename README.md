@@ -1,12 +1,16 @@
 ## Depth Pro: Testing on Underwater Marine Imagery 
 This repository is a test fork of the original [Depth Pro: Sharp Monocular Metric Depth](https://arxiv.org/abs/2410.02073) project. The focus of this fork is to test depth estimation models on Underwater Marine Imagery  data and compare their performance. The tests involve generating high-resolution depth maps and evaluating the boundary accuracy of the predictions.
+
+
+<img src="results/before_20241009_ml_depth_pro_MOUSS_test.jpg" alt="Before" width="400"/><img src="results/after_20241009_ml_depth_pro_MOUSS_test.png" alt="After" width="400"/>
+
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 10px;">
-    <h4>Before</h4>
+    <h4>Input</h4>
     <img src="results/before_20241009_ml_depth_pro_MOUSS_test.jpg" alt="Before" width="400"/>
   </div>
   <div>
-    <h4>After</h4>
+    <h4>Result</h4>
     <img src="results/after_20241009_ml_depth_pro_MOUSS_test.png" alt="After" width="400"/>
   </div>
 </div>
