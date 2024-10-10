@@ -1,0 +1,4 @@
+dash
+Pillow
+numpy
+plotly
