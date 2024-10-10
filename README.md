@@ -4,8 +4,12 @@ This repository is a test fork of the original [Depth Pro: Sharp Monocular Metri
 ### Input / Result
 <img src="results/before_20241009_ml_depth_pro_MOUSS_test.jpg" alt="Before" width="400"/><img src="results/after_20241009_ml_depth_pro_MOUSS_test.png" alt="After" width="400"/>
 
-### Video Test Results
-![](results/20241009_ml-depth-pro-MOUSS-test.gif)
+### Depth Estimation using Machine Learning on Underwater Marine Imagery Visualization Viewer
+### https://connect.fisheries.noaa.gov/ml_depth_pro/
+<a href="https://connect.fisheries.noaa.gov/ml_depth_pro/" target="_blank">
+  <img src="./results/app.png" alt="screenshot">
+</a>
+![](results/app.png)
 
 ### Google Colab Notebook w/ Testing Code
 A Colab notebook that demonstrates how to run depth predictions and visualize the results.
