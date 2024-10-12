@@ -1,6 +1,15 @@
 ## Depth Pro: Testing on Underwater Marine Imagery 
 This repository is a test fork of the original [Depth Pro: Sharp Monocular Metric Depth](https://arxiv.org/abs/2410.02073) project. The focus of this fork is to test depth estimation models on Underwater Marine Imagery  data and compare their performance. The tests involve generating high-resolution depth maps and evaluating the boundary accuracy of the predictions.
 
+## 20241011 - Depth Pro plus YOLO11
+The following uses a trained YOLO11 object detection model combined with Depth Pro to calculate the depth of objects in images and apply scaling adjustments based on known ground truth distances. Applying a scaling factor derived from ground truth bounding boxes to improve depth accuracy across the image. When ground truth is missing, a default bounding box is used to maintain consistency in depth estimation. Below is before and after.
+
+### With Focal Length Prediction Added
+![](results/before_and_after/before_00002_depth_overlay.png)
+
+### With Focal Length Prediction & Scaling Adjustments based on Known Ground Truth Distances
+![](results/before_and_after/after_00002_depth_overlay.png)
+
 ### Depth Estimation Visualization Viewer
 ### https://connect.fisheries.noaa.gov/ml_depth_pro/
 <a href="https://connect.fisheries.noaa.gov/ml_depth_pro/" target="_blank">
